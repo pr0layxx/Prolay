@@ -1,0 +1,30 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+  padding: 0;
+}
+/* styles.css or index.css */
+
+/* Shining effect animation */
+@keyframes shine {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  .shining-text {
+    background: linear-gradient(90deg, #4c51bf, #f687b3, #9f7aea);
+    background-size: 200% 100%;
+    color: transparent;
+    background-clip: text;
+    animation: shine 7s linear infinite;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    
+  }
+  
