@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
 import { useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Footer from "./components/Footer";

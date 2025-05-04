@@ -4,6 +4,7 @@ import About from "../pages/About";
 import SkillsSection from "../components/SkillsSection";
 import ProjectsSection from "../components/ProjectsSection";
 import Contact from "../components/Contact";
+
 function Home() {
   console.log("home is rendering");
   
@@ -11,7 +12,6 @@ function Home() {
     <div>
       <HeroSection />
       {/* Smooth gradient transition between sections */}
-
       <About />
       <SkillsSection />
       <ProjectsSection />
